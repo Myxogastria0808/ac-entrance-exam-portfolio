@@ -2,13 +2,17 @@
   "name": "ac-entrance-exam-portfolio",
   "private": true,
   "type": "module",
+  "scripts": {
+    "deploy": "wrangler deploy"
+  },
+  "dependencies": {
+    "wrangler": "^4.99.0"
+  },
   "devDependencies": {
     "@types/bun": "latest"
   },
   "peerDependencies": {
     "typescript": "^5"
-  },
-  "dependencies": {
-    "wrangler": "^4.99.0"
   }
 }
+
